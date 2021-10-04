@@ -1,0 +1,43 @@
+.header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.header_top{
+    background-color: #0F1111;
+    height: 75px;
+    font-size: 14px;
+    display: flex;
+    color: white;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+
+.header_menu{
+    display: flex;
+    padding: 10px 8px 8px 8px;
+    width:100%
+}
+
+.header_menu > div{
+    margin: 8px;
+}
+
+.header_menu_singin{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_menu_top_item{
+    font-size: 20px;
+    color: lightgray;
+}
+
+a:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+a{
+    margin-left: 15px;
+}

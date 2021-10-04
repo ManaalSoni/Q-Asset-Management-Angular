@@ -1,0 +1,37 @@
+#requests {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #requests td, #users th {
+    border: 1px solid rgba(39, 39, 38, 0.644);
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  /* #requests tr:nth-child(even){background-color:rgb(251, 250, 145);} */
+  
+  #requests tr:hover {background-color: rgb(8, 0, 0);}
+  
+  #requests th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    text-align: center;
+    background-color: rgb(13, 44, 83);
+    color: white;
+    
+  }
+
+  #requests{
+      background-color: rgba(8, 0, 0, 0.644);
+  }
+
+  div{
+    position: absolute;
+    left: 27%;
+    top: 20%;
+  }
+

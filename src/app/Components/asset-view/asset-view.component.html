@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div *ngFor="let item of assets">   
+    <h1>{{item.id}}. {{item.name}} </h1>
+</div>
+
+<button>Create Asset</button>
+<button class="btn" type="button" (click)="navigate()">Back to Home Page</button>

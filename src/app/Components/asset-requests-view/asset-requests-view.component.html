@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div>
+<table id="requests">
+<tr>
+    <th scope="col">Sr. No.</th>
+    <th *ngFor = "let column of headers">
+      {{column}}
+    </th>
+    <th scope="col">Actions</th>
+  </tr>
+
+<tr *ngFor = "let row of requests; let i=index">
+    <td>{{i+1}}</td>
+    <td *ngFor = "let column of headers">
+        {{row[column]}}
+    </td>
+    <td>
+        <button  (click)="update_request(row,'approve',row.requestId)">Approve</button>
+        <button (click)="update_request(row,'remove',row.id)">Reject</button>
+    </td>
+  </tr>
+</table>
+<br>
+<hr>
+<button class="btn" type="button" (click)="navigate()">Back to Home Page</button>
+</div>
